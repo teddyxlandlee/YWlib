@@ -3,9 +3,12 @@
   "id": "ywlib",
   "version": "${version}",
   "name": "YWlib",
-  "description": "Useful library, include,obj loader,GUI,blockentity,block,item,register,feature,world gen.",
+  "description": "Useful library, include,obj loader, GUI, block entity, block, item, register, feature, world gen.",
   "authors": [
     "YWsuoyi"
+  ],
+  "contributors": [
+    "teddyxlandlee"
   ],
   "contact": {
     "website": "https://space.bilibili.com/291363109"
@@ -22,7 +25,8 @@
     ]
   },
   "mixins": [
-    "ywsuoyi.mixins.json"
+    "ywsuoyi.mixins.json",
+    "fabric-item-api-v1.2.0.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.9.0+build.204",

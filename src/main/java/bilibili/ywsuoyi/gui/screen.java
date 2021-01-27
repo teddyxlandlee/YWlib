@@ -1,5 +1,7 @@
 package bilibili.ywsuoyi.gui;
 
+import net.fabricmc.api.EnvType;
+import net.fabricmc.api.Environment;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.screen.ingame.HandledScreen;
@@ -16,6 +18,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.collection.DefaultedList;
 import net.minecraft.util.math.MathHelper;
 
+@Environment(EnvType.CLIENT)
 public abstract class screen<T extends ScreenHandler> extends HandledScreen<T> {
     public DefaultedList<button> buttons = DefaultedList.of();
     public DefaultedList<scroll> scrolls = DefaultedList.of();

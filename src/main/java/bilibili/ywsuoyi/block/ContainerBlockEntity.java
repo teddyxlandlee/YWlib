@@ -11,6 +11,9 @@ import net.minecraft.network.PacketByteBuf;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.util.collection.DefaultedList;
 
+/**
+ * @see AbstractLockableContainerBlockEntity
+ */
 public abstract class ContainerBlockEntity extends LootableContainerBlockEntity implements ExtendedScreenHandlerFactory {
     private DefaultedList<ItemStack> inventory;
     private final int size;

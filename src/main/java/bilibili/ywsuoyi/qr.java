@@ -1,6 +1,7 @@
 package bilibili.ywsuoyi;
 
 import bilibili.ywsuoyi.feature.nbt.nbtFeatuer;
+import bilibili.ywsuoyi.reg.QuickReg;
 import net.fabricmc.fabric.api.biomes.v1.OverworldBiomes;
 import net.fabricmc.fabric.api.biomes.v1.OverworldClimate;
 import net.fabricmc.fabric.api.screenhandler.v1.ScreenHandlerRegistry;
@@ -21,6 +22,11 @@ import net.minecraft.world.gen.feature.StructureFeature;
 import java.util.Locale;
 import java.util.function.Supplier;
 
+/**
+ * @see QuickReg
+ * @deprecated use {@link QuickReg} for better compatibility!
+ */
+@Deprecated
 public class qr {
     public static String ID = "";
     public static void setId(String id){

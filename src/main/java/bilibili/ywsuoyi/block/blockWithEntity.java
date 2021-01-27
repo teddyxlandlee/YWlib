@@ -8,6 +8,7 @@ public abstract class blockWithEntity extends BlockWithEntity {
     public blockWithEntity(Settings settings) {
         super(settings);
     }
+
     public BlockRenderType getRenderType(BlockState state) {
         return BlockRenderType.MODEL;
     }
