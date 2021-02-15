@@ -23,11 +23,11 @@ import java.util.Iterator;
  * @author YWsuoyi
  * @author teddyxlandlee
  */
-public abstract class AbstractLockableContainerBlockEntity extends LockableContainerBlockEntity {
+public abstract class AbstractLockableContainerBlockentity extends LockableContainerBlockEntity {
     protected /*private*/ DefaultedList<ItemStack> inventory;
     private final int size;
 
-    public AbstractLockableContainerBlockEntity(BlockEntityType<?> type, int size) {
+    public AbstractLockableContainerBlockentity(BlockEntityType<?> type, int size) {
         super(type);
         this.inventory = DefaultedList.ofSize(size, ItemStack.EMPTY);
         this.size = size;

@@ -18,10 +18,8 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "bilibili.ywsuoyi.client.YwsuoyiClient"
     ],
     "main": [
-      "bilibili.ywsuoyi.Ywsuoyi"
     ]
   },
   "mixins": [

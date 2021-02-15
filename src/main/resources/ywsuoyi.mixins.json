@@ -4,8 +4,11 @@
   "package": "bilibili.ywsuoyi.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "AdvancementTaskAccessor",
+    "MixinAdvancementTask"
   ],
   "client": [
+    "client.CreditsScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 1
